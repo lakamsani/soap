@@ -107,16 +107,16 @@
     </wsdl:binding>
     <wsdl:service name="StockQuote">
         <wsdl:port name="StockQuoteSoap" binding="tns:StockQuoteSoap">
-            <soap:address location="http://localhost:2147/stockquote"/>
+            <soap:address location="http://localhost:2347/stockquote"/>
         </wsdl:port>
         <wsdl:port name="StockQuoteSoap12" binding="tns:StockQuoteSoap12">
-            <soap12:address location="http://localhost:2147/stockquote"/>
+            <soap12:address location="http://localhost:2347/stockquote"/>
         </wsdl:port>
         <wsdl:port name="StockQuoteHttpGet" binding="tns:StockQuoteHttpGet">
-            <http:address location="http://localhost:2147/stockquote"/>
+            <http:address location="http://localhost:2347/stockquote"/>
         </wsdl:port>
         <wsdl:port name="StockQuoteHttpPost" binding="tns:StockQuoteHttpPost">
-            <http:address location="http://localhost:2147/stockquote"/>
+            <http:address location="http://localhost:2347/stockquote"/>
         </wsdl:port>
     </wsdl:service>
 </wsdl:definitions>
